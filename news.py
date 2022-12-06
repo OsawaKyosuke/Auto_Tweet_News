@@ -8,10 +8,10 @@ import time
 import feedparser
 
 # Twitter APIを使用するための認証情報を設定
-api_key = "Xf1CltkMj7DeDyi6sFkZ5oHf8"
-api_secret = "Qmn0QWzU9Mcwho33iC9lNGAhw0jsRDruU500gLwlvDFiIDUdfN"
-access_token = "1600010069877612545-k4OiBijlGStReqRWLX7CIBGtbQXBJI"
-access_token_secret = "BR7N43iXIj0HPQYWIxkmzVTSb2ry5bfQqjQ4h7lb0UVD0"
+api_key = "YOURKEY"
+api_secret = "YOURKEY"
+access_token = "YOURKEY"
+access_token_secret = "YOURKEY"
 
 # 認証情報を使用してTwitter APIへアクセス
 auth = tweepy.OAuthHandler(api_key, api_secret)
